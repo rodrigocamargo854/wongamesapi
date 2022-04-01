@@ -1,0 +1,36 @@
+Arguments: 
+  /home/rodrigogodoy/.nvm/versions/node/v12.14.1/bin/node /home/rodrigogodoy/.yarn/bin/yarn.js add slugfy
+
+PATH: 
+  /home/rodrigogodoy/.nvm/versions/node/v12.14.1/bin:/home/rodrigogodoy/.yarn/bin:/home/rodrigogodoy/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/rodrigo.godoy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rodrigo.godoy/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/Microsoft/Windows/Start Menu/Programs/PostgreSQL 14:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Users/rodrigo.godoy/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/slugfy: Not found
+      at Request.params.callback [as _callback] (/home/rodrigogodoy/.yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/rodrigogodoy/.yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:223:5)
+      at Request.<anonymous> (/home/rodrigogodoy/.yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:223:5)
+      at IncomingMessage.<anonymous> (/home/rodrigogodoy/.yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:312:28)
+      at IncomingMessage.emit (events.js:228:7)
+      at endReadableNT (_stream_readable.js:1185:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
